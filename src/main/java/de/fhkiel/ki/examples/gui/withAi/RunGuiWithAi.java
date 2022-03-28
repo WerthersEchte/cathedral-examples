@@ -5,6 +5,6 @@ import de.fhkiel.ki.ui.CathedralGUI;
 
 public class RunGuiWithAi {
   public static void main(String[] args) {
-    CathedralGUI.launchGUI(new CoolAI());
+    CathedralGUI.launchGUI(new TestAI(), new CoolAI());
   }
 }
